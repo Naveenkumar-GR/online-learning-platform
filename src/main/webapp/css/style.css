@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f4f4;
+}
+
+header{
+    background:#1e3a8a;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero a{
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.course-container{
+    display:flex;
+    gap:20px;
+    padding:40px;
+    justify-content:center;
+}
+
+.course-card{
+    background:white;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.course-card button{
+    width:100%;
+    background:#16a34a;
+    color:white;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
+.course-detail{
+    padding:40px;
+    background:white;
+    margin:20px;
+    border-radius:10px;
+}
+
+.dashboard{
+    padding:40px;
+}
+
+.enrollment-card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-box{
+    width:300px;
+    background:white;
+    margin:100px auto;
+    padding:30px;
+    border-radius:10px;
+}
+
+.login-box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+.login-box button{
+    width:100%;
+    padding:10px;
+    background:#2563eb;
+    color:white;
+    border:none;
+}
